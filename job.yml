@@ -1,0 +1,5 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+command: >-
+  echo "Hello World"
+environment: azureml:XGBoost-Env:4
+compute: azureml:aml-labs-01

@@ -1,0 +1,1 @@
+az ml job create -f job.yml --resource-group RG-ML --workspace-name aml-labs --query name
